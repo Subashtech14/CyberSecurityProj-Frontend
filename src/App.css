@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: black;
+  margin-top: 10px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.items li{
+  display: inline;
+  padding: 10px;
+  height: 200px;
+}
+.items li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.items li :hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.552);
+}
+.body{
+  margin-top: 10px;
+  background-color: gray;
+  height: 100vh;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  overflow: hidden;
+}
+.buttons{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 30%;
+height:100%;
+justify-content: center;
+background-color: rgb(20, 33, 33);
+padding-top: 20px;
+align-items: center;
+border-radius: 20px;
+
+}
+.container
+{
+  display: inline;
+  width:200px;
+}
+h1{
+  text-align: center;
+}
+
+button{
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.679);
+  color: white;
+}
+#details{
+  background-color: rgba(63, 166, 192, 0.722);
+  width: 50%;
+ position: absolute;
+ top: 30%;
+ right:10%;
+ height: 70%;
+ border-radius: 30px;
+ overflow: auto;
+ padding: 20px;
+ opacity: 0;
+ }
+#ip{
+  color: rgb(255, 255, 255);
+}
+#ip:hover{
+  color: black;
+  cursor: pointer;
+}
+p{
+  padding-top: 10px;
+}
+#details #data{
+margin-left: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
+background-color: rgb(255, 255, 255);
+color: black;
+}
+#details #data:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+}
