@@ -19,7 +19,7 @@ const Body = () => {
          <div id='details'>
           <button id="data">{data}</button>
           {p}
-          
+          {name}
           </div>
           </div>))}
          
